@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "Trello",
+  "name": "PlanStack",
   "short_name": "App",
-  "description": "A complete clone of Trello",
+  "description": "Work together, handle projects, and achieve higher productivity.",
   "icons": [
     {
       "src": "/icon-192x192.png",

@@ -16,7 +16,7 @@ export const Logo = () => {
         <p
           className={cn('pb-1 text-lg text-neutral-700', headingFont.className)}
         >
-          Taskify
+          PlanStack
         </p>
       </div>
     </Link>
