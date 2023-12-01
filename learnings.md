@@ -7,6 +7,12 @@
 - Catch all segments in nextjs - [[...sign-up]]
 - zustand
 - How can we use skeleton effectively
+- How can we use zod to validate input & outputs using zod - by creating create-safe-action function
+- Creating custom hook called use-action for board.
+- How to structure server action files
+  - index.ts    -> action function
+  - schema.ts   -> zod validation schema
+  - types.ts    -> using zod schema by inferring types
 
 ## Setting up database
 
@@ -20,3 +26,8 @@
     1. ```pnpx prisma generate```  --> This will create types, functions for your new model
     2. ```pnpx prisma db push``` --> After this make sure you restart your application
 - ```pnpm i @prisma/client``` --> To use prisma on your app
+
+## Zod
+
+- ```pnpm i zod```
+- import 'z' and using that create object and write types for your data to be validated
