@@ -55,12 +55,12 @@ const handler = async (data: InputType): Promise<ReturnType> => {
     board = await db.board.create({
       data: {
         title,
-        // orgId,
-        // imageId,
-        // imageThumbUrl,
-        // imageFullUrl,
-        // imageUserName,
-        // imageLinkHTML,
+        orgId,
+        imageId,
+        imageThumbUrl,
+        imageFullUrl,
+        imageUserName,
+        imageLinkHTML,
       },
     });
 

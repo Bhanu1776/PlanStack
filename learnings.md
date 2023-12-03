@@ -13,6 +13,7 @@
   - index.ts    -> action function
   - schema.ts   -> zod validation schema
   - types.ts    -> using zod schema by inferring types
+- Learned how can we integrate unsplash api
 
 ## Setting up database
 
@@ -26,6 +27,8 @@
     1. ```pnpx prisma generate```  --> This will create types, functions for your new model
     2. ```pnpx prisma db push``` --> After this make sure you restart your application
 - ```pnpm i @prisma/client``` --> To use prisma on your app
+- ```pnpx prisma migrate reset``` --> This is reset the db, do this if we are modified schema heavily, after this run db push & generate command
+- ```pnpx prisma studio```  --> To visually see all the tables and data in the database
 
 ## Zod
 
